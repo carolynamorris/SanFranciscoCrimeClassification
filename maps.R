@@ -25,7 +25,7 @@ library(gridExtra)
 train = read.csv('data/train.csv')
 train = filter(train, Y<90)
 
-# Static small multiple heatmaps
+# Static small multiple contour heatmaps
 
 sf = c(lon = -122.447217, lat = 37.759036)
 sf.map = get_map(location = sf, zoom = 12, color = "bw")
